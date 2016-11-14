@@ -8,9 +8,9 @@ function countVolumes (pcData) {
 			pcData.hdd,
 			(result, e) => {
 				if (result[e.volume]) {
-					result[e.volume] += e.size
+					result[e.volume] = String(Number(result[e.volume]) + Number(e.size))
 				} else {
-					result[e.volume] = e.size
+					result[e.volume] = String(e.size)
 				}
 				return result
 			},
