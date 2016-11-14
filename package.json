@@ -1,0 +1,23 @@
+{
+  "name": "skillbranch-node-react-3a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ohar/SkillBranch-Node-React-3a.git"
+  },
+  "author": "Pavel Lysenko aka Ohar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ohar/SkillBranch-Node-React-3a/issues"
+  },
+  "homepage": "https://github.com/Ohar/SkillBranch-Node-React-3a#readme",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "lodash": "^4.16.6",
+    "log4js": "^1.0.1",
+    "node-fetch": "^1.6.3"
+  }
+}
