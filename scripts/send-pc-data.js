@@ -10,6 +10,7 @@ function sendPcData (req, res, pcData) {
 	try {
 		const props = compact(
 			req.url
+				.replace(/\./, '')
 				.split('?')[0]
 				.split('#')[0]
 				.split('/')
